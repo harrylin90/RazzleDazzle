@@ -59,7 +59,7 @@ internal extension UIView {
     }
 }
 
-private final class Lifted<T> {
+private final class Lifted<T>: NSObject {
     let value: T
     init(_ x: T) {
         value = x
